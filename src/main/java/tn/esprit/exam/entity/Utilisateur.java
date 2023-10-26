@@ -19,6 +19,8 @@ public class Utilisateur implements Serializable {
 
     private String prenom;
     private String nom;
+    private String testdevops;
+
     private String password;
     @ManyToOne
     private Classe classeU;
